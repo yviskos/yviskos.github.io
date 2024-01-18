@@ -1,8 +1,19 @@
+
+
 @media (prefers-color-scheme: dark) 
 {
     body {
         background-color:rgb(20, 20, 20);
         color: white;
+    }
+
+    div {
+        background-color: black;
+    }
+
+    a {
+        text-decoration: underline;
+        color: white
     }
 }
 
@@ -12,8 +23,21 @@
         background-color: white;
         color: black;
     }
+
+    div {
+        background-color: rgb(20, 20, 20);
+        margin: 0;
+    }
 }
 
 header {
-    display: inline;
+    display: inline-block;
+}
+
+img {
+    max-width:100%;
+    height:auto;
+}
+h1 {
+    font-size: 55px;
 }

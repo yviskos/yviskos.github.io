@@ -1,3 +1,3 @@
 # yviskos.github.io
 
-My simple personal site. Really. That's it.
+My personal site that I make mostly for practicing web development.
