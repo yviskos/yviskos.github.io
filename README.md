@@ -1,2 +1,2 @@
-# yviskos.github.io
-My personal site that I make mostly for practicing web development.
+#yviskos.github.io
+My own personal corner of the internet :)
