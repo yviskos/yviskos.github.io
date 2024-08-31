@@ -1,16 +1,18 @@
-* {
-    background-color: rgb(20, 0, 29);
+body {
+    background-color: rgb(28, 0, 34);
     color: pink;
+    font-family: Source Code Pro;
 }
 .about-me {
     border: 3px pink double;
     color: pink;
-    padding-left: 20px; 
-    flex: 2;
+    margin-left: 20px;
+    flex: 1;
     max-width: 70vw;
     align-self: flex-start;
     flex-direction: row;
-    min-width: 60vw;
+    min-width: 40w;
+    text-align: center;
 } 
 
 p.about-me {
@@ -22,28 +24,32 @@ h2.about-me {
 }
 
 #links {
-    width: 30vw;
     border: 3px pink double;
     color: pink;
-    padding-left: 20px; 
     margin-left: 15px;
-    flex: 3;
-    min-width: 18vw;
-    float: right;
+    flex: 1;
+    max-width: 15vw;
+    text-align: center;
 }
 img#links {
     display: inline;
 }
 hr{
-    margin-right: 15px;
+    margin-right: 5px;
+    margin-left:5px;
     border: double pink 3px
 }
 #mainflex {
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
+    width: 60vw;
+    margin: 0 auto;
 }
 
 img {
     display: inline;
+}
+
+a {
+    color: pink;
 }
