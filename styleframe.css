@@ -1,0 +1,45 @@
+* {  
+    box-sizing: border-box; 
+   } 
+
+:root {
+    font-size: 62.5%;
+  }
+
+body {
+    color: pink;
+    font-family: 'MS PGothic', 'Arial';
+    font-size: 1.4rem;
+    background-color: black;
+    margin-top: 0;
+}
+
+
+    
+h2 {
+    padding-left:2rem;
+}
+
+
+hr {
+    margin-right: .5rem;
+    margin-left: .5rem;
+    border: double pink 3px
+}
+
+img {
+    display: inline;
+}
+
+a {
+    color: pink;
+}
+
+
+textarea {
+    max-width: 14rem;
+}
+
+a:hover {
+    text-shadow: rgb(255,97,250) 0px 0px 10px; 
+}

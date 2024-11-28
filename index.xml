@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+    <title>Yviskos</title>
+    <link>https://yviskos.github.io/</link>
+    <atom:link href="https://yviskos.github.io/index.xml" rel="self" type="application/rss+xml"/>
+    <description>Blog posts of Yviskos</description>
+    <language>en-us</language>
+    <lastBuildDate>
+      Sun, 22 Sep 2024 15:24:51 +0000
+    </lastBuildDate>
+    <ttl>1727018691</ttl>
+    
+    
+    <item>
+        <title> (Blog Post Title) </title>
+        <link>https://yviskos.github.io/blog/welcome.html</link>
+        <description><![CDATA[
+        
+           (Copy and paste the html here)
+           
+           
+        ]]> </description>
+        <pubDate>(Date Blog Published - RFC 2822 - https://timestampgenerator.com/) (Ex. Thu, 11 Jan 2024 17:43:33 +0000)</pubDate>
+        <guid>(Link back to the page) (Ex. https://(Website Title)/blog/blogpost.html) </guid>
+    
+    </item>
+    
+
+
+
+</channel>
+</rss>
