@@ -10,7 +10,7 @@ body {
     color: pink;
     font-family: 'MS PGothic', 'Arial';
     font-size: 1.6rem;
-    background-image: url(images/stars.png);
+    background-image: url(images/bgbluegalaxy2.gif);
     background-repeat: repeat;
     margin-top: 0;
 }
@@ -20,46 +20,30 @@ body {
     color: pink;
     flex: 1;
     width: 80vw;
-    flex-direction: row;
     text-align: left;
-    background-color: transparent;
-}
-iframe {
-    overflow-y: scroll;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: transparent;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    overflow-y: auto;
 }
 #navigation {
     border: 3px pink double;
     color: pink;
     flex: 1;
-    max-width: 16rem;
+    max-width: 20rem;
     flex-direction: row;
     text-align: center;
 }
-
-
-
     
-h2.main-box {
-    padding-left:2rem;
-}
-
-
 hr {
-    margin-right: .5rem;
-    margin-left: .5rem;
-    border: double pink 3px
+    border: double pink 3px;
+    margin-right: 2rem;
 }
 #mainflex {
     display: flex;
-    flex-wrap: wrap;
     margin: 0 auto;
-    background-color: rgba(25, 4, 20, 0.7);
-    height:100vh;
-    max-width: 96vw;
+    background-color: rgba(36, 0, 33, 0.8);
+    max-width: 90vw;
+    height: 100vh;
     
 }
 
@@ -71,12 +55,7 @@ img {
     text-decoration: none;
 }
 a {
-    color: pink;
-}
-
-
-textarea {
-    max-width: 14rem;
+	color: violet;
 }
 
 a:hover {
@@ -85,4 +64,22 @@ a:hover {
 
 #navigation > a {
     font-size: 1.85rem;
+}
+
+.infobox {
+	margin: 1rem;
+	border: 3px pink double;
+	width: 47%;
+	overflow: auto;
+	word-wrap: break-word;
+	padding: 1rem;
+	max-height: 47vh;
+	background-color: rgba(105, 0, 110, 0.25);
+}
+
+#infoflex {
+	display: flex;
+}
+#navigation > a {
+	color: pink;
 }

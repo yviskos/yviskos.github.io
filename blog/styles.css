@@ -1,5 +1,10 @@
 body {
 	background-color: #202225;
 	color: #ffc0cb;
-	text-align center;
+	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+hr {
+	border: pink 3px double;
 }
