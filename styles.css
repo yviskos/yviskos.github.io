@@ -5,33 +5,53 @@
 :root {
     font-size: 62.5%;
   }
+  @media screen and (max-aspect-ratio: 4/3) {
+    #mainflex {
+      flex-direction: column;
+    }
+    #navigation {
+        max-width: 80vw !important;
+        margin-right: 0px !important;
+    }
+    .infobox {
+        max-width: 80vw !important;
+    }
+    #infoflex {
+        flex-direction: column;
+    }
+  }
 
 body {
     color: pink;
-    font-family: 'MS PGothic', 'Arial';
-    font-size: 1.6rem;
+    font-family: monospace, sans-serif;
+    font-size: 15px;
     background-image: url(images/bgbluegalaxy2.gif);
-    background-repeat: repeat;
-    margin: 0;
+
 }
 
 #mainbox {
     border: 3px pink double;
     color: pink;
     flex: 1;
-    width: 80vw;
+    max-width: 80vw;
+    min-width:35vw;
     text-align: left;
-    padding-left: 2rem;
-    padding-right: 2rem;
+    flex-wrap: wrap;
     overflow-y: auto;
+    background-color: rgba(36, 0, 33, 0.8);
+    margin-bottom: 10px;
+    min-height: 500px;
 }
 #navigation {
     border: 3px pink double;
     color: pink;
     flex: 1;
-    max-width: 20rem;
-    flex-direction: row;
+    max-width: 200px;
+    flex-wrap: wrap;
     text-align: center;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    background-color: rgba(36, 0, 33, 0.8);
 }
     
 hr {
@@ -41,9 +61,8 @@ hr {
 #mainflex {
     display: flex;
     margin: 0 auto;
-    background-color: rgba(36, 0, 33, 0.8);
     max-width: 90vw;
-    height: 100vh;
+    min-height: 100vh;
     
 }
 
@@ -53,6 +72,7 @@ img {
 
 #navigation > a {
     text-decoration: none;
+    background-color: rgba(36, 0, 33, 0.8);
 }
 a {
 	color: violet;
@@ -69,12 +89,13 @@ a:hover {
 .infobox {
 	margin: 1rem;
 	border: 3px pink double;
-	width: 47%;
+	min-width: 47%;
 	overflow: auto;
 	word-wrap: break-word;
+    flex-wrap: wrap;
 	padding: 1rem;
-	max-height: 47vh;
-	background-color: rgba(105, 0, 110, 0.25);
+	max-height: 250px;
+    background-color: rgba(105, 0, 110, 0.25);
 }
 
 #infoflex {
@@ -86,11 +107,20 @@ a:hover {
 .bubble {
 	color: white;
 	border-radius: 5px;
-	min-width: 5rem;
-	max-width: 12rem;
+	min-width: 50px;
+	max-width: 120px;
 	text-align: center;
 }
 
 #zesty > img {
-	height: 20rem;
+	height: 200px;
+}
+code {
+    border: 1px solid rgb(27, 27, 27);
+    padding: 3px;
+    background-color: rgba(22, 0, 20, 0.8);
+}
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
