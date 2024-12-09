@@ -10,11 +10,13 @@
       flex-direction: column;
     }
     #navigation {
-        max-width: 80vw !important;
-        margin-right: 0px !important;
+        max-width: none !important;
+    }
+    #mainbox{
+        max-width: none !important;
     }
     .infobox {
-        max-width: 80vw !important;
+        max-width: 80% !important;
     }
     #infoflex {
         flex-direction: column;
@@ -64,6 +66,7 @@ hr {
     max-width: 90vw;
     min-height: 100vh;
     
+    
 }
 
 img {
@@ -82,9 +85,6 @@ a:hover {
     text-shadow: rgb(255, 83, 212) 1px 0px 10px; 
 }
 
-#navigation > a {
-    font-size: 1.85rem;
-}
 
 .infobox {
 	margin: 1rem;
@@ -103,6 +103,7 @@ a:hover {
 }
 #navigation > a {
 	color: pink;
+    font-size: 1.85rem;
 }
 .bubble {
 	color: white;
