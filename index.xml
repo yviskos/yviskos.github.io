@@ -1,33 +1,46 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+>
+
 <channel>
-    <title>Yviskos</title>
-    <link>https://yviskos.github.io/</link>
-    <atom:link href="https://yviskos.github.io/index.xml" rel="self" type="application/rss+xml"/>
-    <description>Blog posts of Yviskos</description>
-    <language>en-us</language>
-    <lastBuildDate>
-      Sun, 22 Sep 2024 15:24:51 +0000
-    </lastBuildDate>
-    <ttl>1727018691</ttl>
-    
-    
+    <title>incessant intriacies of an internet dragon</title>
+    <link>https://www.yviskos.github.io</link>
+    <description>Talk about tech, furries, and chatter about the day-to-day of an overcaffinated student. Not really that incessant, actually.</description>
+    <language>en-US</language>
+    <lastBuildDate>Wed, 01 Jan 2025 12:50:00 EST</lastBuildDate>
+
     <item>
-        <title> (Blog Post Title) </title>
-        <link>https://yviskos.github.io/blog/welcome.html</link>
-        <description><![CDATA[
-        
-           (Copy and paste the html here)
-           
-           
-        ]]> </description>
-        <pubDate>(Date Blog Published - RFC 2822 - https://timestampgenerator.com/) (Ex. Thu, 11 Jan 2024 17:43:33 +0000)</pubDate>
-        <guid>(Link back to the page) (Ex. https://(Website Title)/blog/blogpost.html) </guid>
-    
+        <title>New Years Resolutions</title>
+        <category>Personal</category>
+        <author>Doraii</author>
+        <pubDate>Wed, 01 Jan 2025 12:50:00 EST</pubDate>
+
+        <description>Let's talk about what I plan to accomplish this year.</description>
+            <content:encoded>
+                <p>So, a new year has come again and my goals weren't achieved. Again... </p>
+                <br/><br/>
+                <p>Y'know what? <i>Fuck this shit,</i> I'll actually commit to my resolutions this year¹</p>
+                <br/><br/>
+                <p>But I've been thinking... What <i>are</i> my new years resolutions? Well, after some thinking, I've come up with an oddly lenient list:</p>
+                <br/><br/>
+                <ul>
+                    <li>Actually get somewhere in programming</li>
+                    <li>Loose at least a bit of weight and eat healthier</li>
+                    <li>Exploring new things a bit, from clothing choices to foods</li>
+                </ul>
+
+                <p>I probably would have put more if I didn't realize I had to be plausible as to not get overwhelmed, because I've seen enough resolutions like</p>
+                <br/><br/>
+                <blockquote>For 2025, I want to own 269 Lamborghinis and become the CEO of uhhh Xbox or something I don't fuckin' know</blockquote>
+                <br/><br/>
+                <p>I'm sorry to say to any aspiring Xbox CEOs butttt... It's kind of a hard wish, innit? Some think that you can just <i>do it,</i> but the complications are more immense than the Milky Way. Ok, maybe not that immense, but you get my drift.</p>
+                <br/><br/>
+                <p>But anyways, I hope I can accomplish my goals. It's a long journey ahead, but perserverance can get me through a bit of it at least.</p>
+                <br/><br/>
+                <p>¹ Hopefully, at least. I can at least wish, yeah?</p>
+            </content:encoded>
     </item>
-    
-
-
-
 </channel>
+
 </rss>
