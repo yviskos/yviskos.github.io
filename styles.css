@@ -1,0 +1,96 @@
+* {  
+    box-sizing: border-box; 
+   }
+
+@font-face {
+  font-family: NationalPark;
+  src: url(/NationalPark-Regular.woff2);
+}
+
+:root {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+  }
+  
+body {
+    color: var(--foreground);
+    font-family: NationalPark; 
+    font-size: 17px;
+    background-image: url(./images/forest_stairs.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+h1, h2, h3 {
+	color: var(--mauve);
+}
+
+h1 {
+    font-size: 4.5rem;
+}
+
+.mainbox {
+    border: black 2px solid;
+    background-color: var(--mantle);
+    margin-left: 210px;
+    margin-right: 1rem;
+    margin-bottom: 10px;
+    padding: 2rem;
+    border-radius: 5px;
+}
+.navigation {
+    border: black 2px solid;
+    max-width: 200px;
+    text-align: center;
+    background-color: var(--mantle);
+    position: fixed;
+    max-height: 90vh;
+    border-radius: 5px;
+}
+
+    
+img {
+    max-width: 60vw;
+}
+
+
+a {
+	color: #ee7f80;
+    text-decoration: none;
+}
+
+.infobox {
+	margin: 1rem;
+	border: 2px black solid;
+	overflow: auto;
+	word-wrap: break-word;
+	padding: 1rem;
+	max-height: 250px;
+	max-width: 250px !important;
+        background-color: var(--crust);
+
+}
+
+.bubble {
+	color: white;
+	border-radius: 5px;
+	max-width: 120px;
+	text-align: center;
+}
+
+code {
+    border: 3px solid #11111b;
+    padding: 3px;
+    background-color: var(--crust);
+}
+
+li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.infocard {
+float: right;
+margin-top: 0;
+}
