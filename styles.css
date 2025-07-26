@@ -14,7 +14,7 @@
 
 body {
     color: var(--foreground);
-    font-family: NationalPark;
+    font-family: NationalPark, Noto Sans, sans-serif;
     font-size: 17px;
     background-image: url(./images/forest_stairs.png);
     background-repeat: no-repeat;
