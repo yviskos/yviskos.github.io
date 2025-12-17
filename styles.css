@@ -2,42 +2,46 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: NationalPark;
-    src: url(/NationalPark-Regular.woff2);
-}
-
 :root {
-    font-size: 62.5%;
+    font-size: 100%;
     scroll-behavior: smooth;
   }
 
 body {
     color: var(--foreground);
-    font-family: NationalPark, Noto Sans, sans-serif;
-    font-size: 17px;
+    font-family: sans-serif;
+    font-size: 1rem;
     background-image: url(./images/forest_stairs.png);
+    background-color: #272d32;
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
 }
 
+body img {
+    max-width: 100%
+}
+
 h1, h2, h3 {
     color: var(--mauve);
+    font-family: sans-serif;
 }
 
 
 .bigboi {
-    width:75vw;
+    width: 75vw;
     margin: auto;
+    display: flex;
+    min-width: auto;
 }
 
 .mainbox {
     border: black 2px solid;
     background-color: var(--mantle);
-    margin-left: 210px;
-    margin-bottom: 10px;
     padding: 2rem;
+    flex-direction: column;
+    width: 80%;
+    flex: 0 0 80%;
 }
 .gallery > img{
 	display: inline;
@@ -45,11 +49,11 @@ h1, h2, h3 {
 }
 .navigation {
     border: black 2px solid;
-    max-width: 200px;
+    width: 0 0 20%;
     text-align: center;
-    background-color: var(--mantle);
-    position: fixed;
-    max-height: 90vh;
+    background-color: var(--mantle);;
+    flex-direction: column;
+    flex: 1;
 }
 
 img {
@@ -62,13 +66,13 @@ a {
 }
 
 .infobox {
-    margin: 1rem;
+    margin: 1rem auto;
     border: 2px black solid;
     overflow: auto;
     word-wrap: break-word;
-    padding: 1rem;
+    padding: 0.5rem;
     max-height: 250px;
-    max-width: 250px !important;
+    max-width: 90%;
     background-color: var(--crust);
 
 }
@@ -95,3 +99,24 @@ li {
     float: right;
     margin-top: 0;
 }
+
+.outlink::after {
+      content: url(/images/external-ltr.svg);
+      margin-left: 5px;
+}
+
+#statuscafe {
+    padding: 0.5em;
+    background-color: var(--crust);
+    border: 1px solid black;
+}
+
+#statuscafe-username {
+    margin-bottom: .5em;
+}
+
+#statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+}
+
+
