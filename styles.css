@@ -2,6 +2,32 @@
     box-sizing: border-box;
 }
 
+@media screen and (orientation: portrait) {
+    .bigboi {
+        flex-direction: column;
+	width: 100%;
+    }
+    .banner {
+	width: 100vw;
+    }
+}
+@media screen and (orientation: landscape) {
+    .bigboi {
+	flex-direction: row;
+	width: 75vw;
+    }
+    .mainbox {
+	flex: 0 0 80%
+    }
+    .navigation {
+	flex: 1 1 20%
+    }
+    .banner {
+	width: 75vw;
+    }
+
+}
+
 :root {
     --mantle: #101e09;
     --foreground: #d3c6aa;
@@ -28,7 +54,6 @@ h1, h2, h3 {
 
 
 .bigboi {
-    width: 75vw;
     margin: 0 auto;
     display: flex;
     min-width: auto;
@@ -38,8 +63,6 @@ h1, h2, h3 {
     border: black 2px solid;
     background-color: var(--mantle);
     padding: 2rem;
-    width: 80%;
-    flex: 0 0 80%;
 }
 .gallery > img{
     display: inline;
@@ -47,18 +70,20 @@ h1, h2, h3 {
 }
 .navigation {
     border: black 2px solid;
-    width: 20%;
     text-align: center;
     background-color: var(--mantle);
-    flex: 1;
 }
 
-img {
-    max-width: 60vw;
+.banner {
+    display: block;
+    margin: 0 auto;
 }
 
 a {
     color: #dabc7f;
+}
+
+.navigation > a {
     text-decoration: none;
 }
 
@@ -87,6 +112,10 @@ li {
 .outlink::after {
     content: url(/images/external-ltr.svg);
     margin-left: 5px;
+}
+
+hr {
+    color: #a7c080;
 }
 
 #statuscafe {
